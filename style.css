@@ -461,6 +461,7 @@ nav {
     gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
+    align-items: stretch;
 }
 
 .project-card {
@@ -507,6 +508,7 @@ nav {
 
 .project-content {
     padding: 2rem;
+    text-align: left;
 }
 
 .project-content h3 {
@@ -527,6 +529,7 @@ nav {
     flex-wrap: wrap;
     gap: 0.5rem;
     margin-bottom: 1.5rem;
+    justify-content: flex-start;
 }
 
 .project-tech span {
@@ -541,7 +544,8 @@ nav {
 .project-links {
     display: flex;
     gap: 1rem;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .project-link {
