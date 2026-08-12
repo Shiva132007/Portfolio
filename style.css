@@ -256,36 +256,6 @@ nav {
     margin-bottom: 1.5rem;
 }
 
-.opportunity-banner {
-    margin-top: 2rem;
-    background: linear-gradient(135deg, rgba(99, 102, 241, 0.08), rgba(6, 182, 212, 0.08));
-    border: 1px solid rgba(99, 102, 241, 0.15);
-    border-radius: 16px;
-    padding: 1.5rem 1.75rem;
-    box-shadow: 0 10px 24px rgba(99, 102, 241, 0.08);
-    text-align: left;
-}
-
-.opportunity-badge {
-    display: inline-block;
-    margin-bottom: 0.75rem;
-    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
-    color: white;
-    font-size: 0.8rem;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    padding: 0.5rem 0.85rem;
-    border-radius: 999px;
-}
-
-.opportunity-banner p {
-    margin: 0;
-    color: var(--text-dark);
-    font-size: 1.03rem;
-    line-height: 1.7;
-}
-
 /* Skills Section */
 .skills-section {
     max-width: 1200px;
