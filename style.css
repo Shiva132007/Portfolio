@@ -337,33 +337,6 @@ nav {
     width: 20px;
 }
 
-.skill-card .skill-tags {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.75rem;
-}
-
-.skill-card .skill-tags li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0.8rem 0.9rem;
-    border: 1px solid rgba(99, 102, 241, 0.15);
-    border-radius: 999px;
-    background: linear-gradient(135deg, rgba(99, 102, 241, 0.08), rgba(6, 182, 212, 0.08));
-    color: var(--text-dark);
-    font-size: 0.9rem;
-    font-weight: 600;
-    min-height: 48px;
-    border-bottom: 1px solid rgba(99, 102, 241, 0.15);
-}
-
-@media (max-width: 480px) {
-    .skill-card .skill-tags {
-        grid-template-columns: 1fr;
-    }
-}
 
 /* Contact Section */
 #contact {
